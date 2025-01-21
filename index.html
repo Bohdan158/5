@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveling Salesman Problem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Traveling Salesman Problem</h1>
+        <p>Enter the number of cities and run the Ant Colony Optimization algorithm.</p>
+        <label for="numCities">Number of Cities:</label>
+        <input type="number" id="numCities" min="3" max="500" value="10">
+        <button id="startButton">Start</button>
+        <div id="visualization"></div>
+        <div id="results">
+            <h2>Results</h2>
+            <p id="bestRoute"></p>
+            <p id="bestLength"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
